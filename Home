@@ -14,9 +14,37 @@
 <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 
 <script src="jquery-confirm.min.js"></script>
-
-
-
-
 <script src="jquery.ui.touch-punch.min.js"></script>
 <script src="assig-script.js"></script>
+<script>
+	$(document).ready(function(){
+	    $("#img1").draggable();
+	    $("#img2").draggable();
+	    $("#img3").draggable();
+	    $("#img4").draggable();
+	    $("#img5").draggable();
+	    $("#img6").draggable();
+	    $("#img7").draggable();
+	    $("#img8").draggable();
+	    $("#img9").draggable();
+	    $("#img10").draggable();
+
+	    $("#val1").html('<span class="question">'+getRandomNumber()+"</span>");
+	    $("#plus").html('<span class="question">+</span>');
+	    $("#val2").html('<span class="question">'+getRandomNumber()+"</span>");
+	    $("#equals").html('<span class="question"> = </span>');
+	    $("#val3").html('<span class="question"> ? </span>');
+
+	    buttonClicked("zero");
+	    buttonClicked("one");
+	    buttonClicked("two");
+	    buttonClicked("three");
+	    buttonClicked("four");
+	    buttonClicked("five");
+	    buttonClicked("six");
+	    buttonClicked("seven");
+	    buttonClicked("eight");
+	    buttonClicked("nine");
+
+	});
+</script>
