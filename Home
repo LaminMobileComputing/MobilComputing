@@ -45,5 +45,62 @@
 	    buttonClicked("seven");
 	    buttonClicked("eight");
 	    buttonClicked("nine");
+});
+</script>
 
+</head>
+
+<title>
+	Assignment
+</title>
+<body>
+
+<div data-role="page">
+
+  <div data-role="header">
+    <h1>Calculator Game</h1>
+  </div>
+  
+  <div data-role="main" class="ui-content">
+  <div class="numbers">
+    <button id="zero" class="ui-btn ui-btn-inline">0</button>
+  	<button id="one" class="ui-btn ui-btn-inline">1</button>
+  	<button id="two" class="ui-btn ui-btn-inline">2</button>
+  	<button id="three" class="ui-btn ui-btn-inline">3</button>
+  	<button id="four" class="ui-btn ui-btn-inline">4</button>
+  	<button id="five" class="ui-btn ui-btn-inline">5</button>
+  	<button id="six" class="ui-btn ui-btn-inline">6</button>
+  	<button id="seven" class="ui-btn ui-btn-inline">7</button>
+  	<button id="eight" class="ui-btn ui-btn-inline">8</button>
+  	<button id="nine" class="ui-btn ui-btn-inline">9</button>
+  </div>
+  	<div class="resultsarea">
+  		<span id="val1"></span>
+  		<span id="plus"></span>
+  		<span id="val2"></span>
+  		<span id="equals"></span>
+  		<span id="val3"></span>
+  	</div>
+  	<div class="dragarea">
+  		
+  	</div>
+  	<img class="apple" id="img1" src="apple.jpeg">
+  	<img class="apple" id="img2" src="apple.jpeg">
+  	<img class="apple" id="img3" src="apple.jpeg">
+  	<img class="apple" id="img4" src="apple.jpeg">
+  	<img class="apple" id="img5" src="apple.jpeg">
+  	<img class="apple" id="img6" src="apple.jpeg">
+  	<img class="apple" id="img7" src="apple.jpeg">
+  	<img class="apple" id="img8" src="apple.jpeg">
+  	<img class="apple" id="img9" src="apple.jpeg">
+  	<img class="apple" id="img10" src="apple.jpeg">
+  </div>
+
+  <div data-role="footer">
+    <h1>App Developed By Lamin Gassama</h1>
+  </div>
+
+</div>
+
+</body>
 
